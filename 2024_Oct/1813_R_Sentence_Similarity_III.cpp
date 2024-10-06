@@ -54,3 +54,53 @@ public:
 Solution reference
 https://leetcode.com/problems/sentence-similarity-iii/solutions/5875276/step-by-step-guide-to-cracking-sentence-similarity
 */
+
+class Solution2 {
+public:
+    bool areSentencesSimilar(string sentence1, string sentence2) 
+    {
+        deque<string> v1, v2;
+        string s;
+
+        // Gets vector of splitted words from sentence1
+        stringstream ss(sentence1);
+        while(getline(ss,s,' '))
+        {
+            v1.push_back(s);
+        }
+
+        // Gets vector of splitted words from sentence2
+        stringstream ss2(sentence2);
+        while (getline(ss2,s,' '))
+        {
+            v2.push_back(s);
+        }
+
+        // Lets v2 have larger length of vector
+        if (v1.size() > v2.size()) swap(v1,v2);
+        while (v1.size())
+        {
+            // If words from v1 and v2 at front is same, remove those words
+            if (v1.front() == v2.front())
+            {
+                v1.pop_front();
+                v2.pop_front();
+            } 
+            // If words from v1 and v2 at the back is same, remove those words
+            else if (v1.back() == v2.back())
+            {
+                v1.pop_back();
+                v2.pop_back();
+            } 
+            else break;
+        }
+        // Empty v1 vector indicates that all words in v1 appears in v2.
+        // Therefore, some words can be added to v1 in one of pairs of two words to make it equal to v2
+        return v1.empty();
+    }
+};
+
+/*
+Solution reference
+Leetcode code sample
+*/
