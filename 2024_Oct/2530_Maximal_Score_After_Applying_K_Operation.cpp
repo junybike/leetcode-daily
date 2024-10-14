@@ -4,7 +4,8 @@ class Solution {
 public:
     long long maxKelements(vector<int>& nums, int k) 
     {
-        // Stores the value ceil(x / 3) whenever x is added to the 'ans' (line 12). 
+        // Stores the value ceil(x / 3) whenever x is added to the 'ans' (line 12)
+        // Stores values in descending order.
         priority_queue<int> pq;
         // Sort the 'nums' vector in descending order
         sort(nums.begin(), nums.end(), greater<int>());
