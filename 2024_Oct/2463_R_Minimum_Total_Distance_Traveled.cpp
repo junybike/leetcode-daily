@@ -1,5 +1,3 @@
-// 2024 Oct 31
-
 class Solution {
 public:
     long long minimumTotalDistance(vector<int>& robot, vector<vector<int>>& factory) 
@@ -14,7 +12,7 @@ public:
 
         // DP table to store minimum distances for robots to factories
         // dp[i][j]: i for robot and j for factory
-        vector<vector<long long>> dp(m + 1, vector<long long>(n + 1))
+        vector<vector<long long>> dp(m + 1, vector<long long>(n + 1));
         
         // Set distance to INF if there are no available factories
         for (int i = 0; i < m; i++)
@@ -43,7 +41,7 @@ public:
                 // Add the current state to 'q'
                 q.push_back({i, dp[i][j + 1] - dist});
                 // Calculating minimum distance for current state
-                dq[i][j] = q.front().second + dist;
+                dp[i][j] = q.front().second + dist;
             }
         }
         return dp[0][0]; // The minimum total distance starting from first robot and first factory
