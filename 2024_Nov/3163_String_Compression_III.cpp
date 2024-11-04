@@ -18,9 +18,10 @@ public:
                 count++;
                 i++;
             }
-            comp += (to_string(count) + prev);  // append the 'count' value and the previous character to 'comp'
-            prev = word[i];                     // set the previous character to the character at current index 'i'
-            count = 0;                          // reset the counter to 0
+            comp += '0' + count;    // append the 'count' value to 'comp'
+            comp += prev;           // append the previous character to 'comp'
+            prev = word[i];         // set the previous character to the character at current index 'i'
+            count = 0;              // reset the counter to 0
         }
         
         return comp;
