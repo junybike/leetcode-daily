@@ -1,18 +1,22 @@
 # mytoolbox  
 Lists of useful tools to solve problems
 
-## Simple data structures
+## Standard data structures
 - array
 - vector
-- unordered_set<>
-- set<>
-- pair
+- unordered_set<type>
+- set<type>
+- unordered_map<type, type>
+- map<type, type>
+- pair<type, type>
 
-## Class data structures
+## Implemented Data structures
 - Binary Tree
 - Linked List
-
+- Trie
+  
 ## Algorithms
+- Sort
 - BFS
 - Dijkstra
 - KMP
