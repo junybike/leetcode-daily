@@ -12,7 +12,9 @@ public:
         
         // Determines the amount of stores each type of 'quantities' can distribute when
         // they are being distributed by at most 'a' products 
+        // (must distribute 'a' product to a store to distribute to another store)
         // and record those values by adding them to 'sum'.
+        
         for (int i : quantities)
         {
             sum = sum + (i + a - 1) / a;
