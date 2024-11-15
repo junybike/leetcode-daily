@@ -19,12 +19,13 @@ public:
         int R = n - 1;
         while (R > 0 && arr[R - 1] <= arr[R]) R--;
 
-        // Determine the minimum number of values to remove (prefix or suffix) 
+        // Determine the default number of values to remove by removing the prefix or suffix.
+        // Later, try to find a smaller number of values to remove from the middle values.
         int ans = 0;
         if (n - L - 1 < R) ans = n - L - 1;
         else ans = R;
 
-        // Find the smallest number of values to be removed to make the 'arr' sorted
+        // Try to find the smaller number of values to be removed than min(prefix, suffix)
         int i = 0;
         int j = R;
         while (i <= L && j < n)
