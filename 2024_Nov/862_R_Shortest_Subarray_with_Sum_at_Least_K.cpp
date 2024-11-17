@@ -81,6 +81,7 @@ public:
             arr[R++] = i;   // Stores the current index at R and set R to R + 1. 
         }
 
+        // If the n is greater than 'ans' then return -1 instead of 'ans'
         return ans <= n ? ans : -1;
     }
 };
