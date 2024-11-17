@@ -51,7 +51,7 @@ public:
             sum[i + 1] = sum[i] + nums[i];
         }    
 
-        vector<int> arr(n + 1); // Monotonic queue
+        vector<int> arr(n + 1); // Monotonic queue. Stores the 
         int L = 0;              // A pointer on the left side of 'arr'
         int R = 0;              // A pointer on the right side of 'arr' (L < R)
         int ans = n + 1;        // The smallest number of values in 'nums' that can be added and be greater or equal to k
@@ -60,23 +60,25 @@ public:
         // Perform sliding window
         for (int i = 0; i < n + 1; i++)
         {
-            for (int i : arr) cout << i << " ";
-            cout << endl;
+            // While the cumulative sum upto index i of nums is greater or equal to the sum upto index arr[L] + k,
+            // then k can be formed with i - arr[L] number of values in 'nums'.
+            // If this number is lower than the current lowest (ans), update ans. However, increment 'L' regardless. 
 
             while (L < R && sum[i] >= sum[arr[L]] + k)
             {
-                cout << sum[i] << " ? >= " << sum[arr[L]] << " + " << k << " L: " << L << endl;
-                cout << "ans: " << ans << endl;
                 ans = min(ans, i - arr[L++]);
             }
             
+            // If the cumulative sum upto arr[R - 1] index is greater or equal to the sum upto current index,
+            // shrink the range by decrementing 'R'.
+
             while (L < R && sum[i] <= sum[arr[R - 1]])
             {
                 cout << sum[i] << " ? <= " << sum[arr[R - 1]] << " R: " << R << endl;
                 R--;
             }
-            cout << "-------------------------------------" << endl;
-            arr[R++] = i;
+
+            arr[R++] = i;   // Stores the current index at R and set R to R + 1. 
         }
 
         return ans <= n ? ans : -1;
