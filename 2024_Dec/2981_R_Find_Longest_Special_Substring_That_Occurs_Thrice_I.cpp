@@ -10,11 +10,11 @@ public:
 
         for (int i = 0; i < n; i++)
         {
-            // Increment 'index' whenever current character is not the same as character at s[index];
+            // Find the length of special subsequence that contains s[i].
             while (s[index] != s[i]) index++;            
 
-            // If the length of special substring of s[i] is at least 'M', 
-            // increment the s[i] to indicate that s[i] kind of subsequence exists. 
+            // If the length of special substring at s[i] is at least 'M', 
+            // increment the s[i] to indicate that the length of subsequence of at least 3 exists at s[i]. 
             if (i - index + 1 >= M) cnt[s[i] - 'a']++;
 
             // If the special subsequence occurs at least 3 times, return true.
@@ -43,7 +43,7 @@ public:
             if (s_search(s, n, M)) L = M;     
             else R = M;
         }
-        
+
         return L;
     }
 };
