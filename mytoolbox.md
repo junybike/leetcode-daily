@@ -20,3 +20,5 @@ Lists of useful tools to solve problems
 - BFS
 - Dijkstra
 - KMP
+- Prefix sum
+- DP
