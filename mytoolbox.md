@@ -22,3 +22,5 @@ Lists of useful tools to solve problems
 - KMP
 - Prefix sum
 - DP
+- Floyd Warshall
+- Khan's
