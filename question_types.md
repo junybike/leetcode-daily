@@ -14,6 +14,9 @@
 ## 2025 Jan Dij
 - 1368 Minimum Cost to Make at Least One Valid Path in a Grid (DP, Dij, BFS)
 
+## 2025 Jan BFS
+- 407 Trapping Rain Water II
+
 ## 2025 Jan DFS
 - 802 Find Eventual Safe States
 - 684 Redundant Connection
