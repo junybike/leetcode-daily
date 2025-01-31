@@ -21,3 +21,4 @@
 - 802 Find Eventual Safe States
 - 684 Redundant Connection
 - 2658 Maximum Number of Fish in a Grid
+- 827 Making A Large Island
