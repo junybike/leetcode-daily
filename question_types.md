@@ -22,3 +22,7 @@
 - 684 Redundant Connection
 - 2658 Maximum Number of Fish in a Grid
 - 827 Making A Large Island
+
+## 2025 Feb Backtracking
+- 1079 Letter Tile Possibilities
+- 1718 Construct the Lexicographically Largest Valid Sequence
