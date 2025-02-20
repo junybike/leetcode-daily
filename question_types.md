@@ -25,4 +25,5 @@
 
 ## 2025 Feb Backtracking
 - 1079 Letter Tile Possibilities
+- 1415 The k-th Lexicographical String of All Happy Strings of Length n
 - 1718 Construct the Lexicographically Largest Valid Sequence
