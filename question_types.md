@@ -1,29 +1,38 @@
-## 2024 Dec DP:  
+## DP
+### 2024 Dec
 - 983 Minimum Cost For Tickets
 - 2466 Count Ways To Build Good Strings
 - 1639 Number of Ways to Form a Target String Given a Dictionary
 - 689 Maximum Sum of 3 Non-Overlapping Subarrays
 - 1014 Best Sightseeing Pair
-- 494 Target Sum
-  
-## 2024 Dec BFS
+- 494 Target Sum  
+
+## BFS
+### 2024 Dec
 - 2471 Minimum Number of Operations to Sort a Binary Tree by Level
 - 2872 Maximum Number of K-Divisible Components
-- 2415 Reverse Odd Levels of Binary Tree
-
-## 2025 Jan Dij
-- 1368 Minimum Cost to Make at Least One Valid Path in a Grid (DP, Dij, BFS)
-
-## 2025 Jan BFS
+- 2415 Reverse Odd Levels of Binary Tree  
+### 2025 Jan
 - 407 Trapping Rain Water II
 
-## 2025 Jan DFS
+## DFS
+### 2025 Jan
 - 802 Find Eventual Safe States
 - 684 Redundant Connection
 - 2658 Maximum Number of Fish in a Grid
-- 827 Making A Large Island
+- 827 Making A Large Island  
 
-## 2025 Feb Backtracking
+## Dijkstra
+### 2025 Jan
+- 1368 Minimum Cost to Make at Least One Valid Path in a Grid (DP, Dij, BFS)  
+
+## Backtracking
+### 2025 Feb
 - 1079 Letter Tile Possibilities
 - 1415 The k-th Lexicographical String of All Happy Strings of Length n
-- 1718 Construct the Lexicographically Largest Valid Sequence
+- 1718 Construct the Lexicographically Largest Valid Sequence  
+
+## Binary Trees
+### 2025 Feb
+- 1028 Recover a Tree From Preorder Traversal
+- 1261 Find Elements in a Contaminated Binary Tree
