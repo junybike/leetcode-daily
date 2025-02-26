@@ -6,6 +6,7 @@ Lists of useful tools to solve problems
 - vector
 - unordered_set<type>
 - set<type>
+- multiset<type>
 - unordered_map<type, type>
 - map<type, type>
 - pair<type, type>
@@ -16,13 +17,16 @@ Lists of useful tools to solve problems
 - Trie
   
 ## Algorithms
-- Sort
-- BFS
-- Dijkstra
-- KMP
-- Prefix sum
-- DP
-- Floyd Warshall
+- BFS, DFS, Dijkstra
+  
+- KMP  
+  string matching (find indices of occurrences of a pattern within a text)  
+  
+- Prefix sum  
+  subarray problems
+  
+- Floyd Warshall  
+  shortest path (undirected/directed)
   
 - Khan's:  
   topological sort
