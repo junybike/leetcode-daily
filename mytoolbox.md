@@ -23,4 +23,10 @@ Lists of useful tools to solve problems
 - Prefix sum
 - DP
 - Floyd Warshall
-- Khan's
+  
+- Khan's:  
+  topological sort
+  course sequencing / scheduling task
+  
+- Kadane's:  
+  max subarray sum in an array
