@@ -5,7 +5,9 @@
 - 1639 Number of Ways to Form a Target String Given a Dictionary
 - 689 Maximum Sum of 3 Non-Overlapping Subarrays
 - 1014 Best Sightseeing Pair
-- 494 Target Sum  
+- 494 Target Sum
+### 2025 Feb
+- 1092 Shortest Common Supersequence
 
 ## BFS
 ### 2024 Dec
