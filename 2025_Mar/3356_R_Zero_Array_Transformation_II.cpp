@@ -1,5 +1,6 @@
 // 2025 Mar 13
 
+// Binary search
 class Solution {
 public:
 
@@ -46,6 +47,39 @@ public:
         }
 
         return L;
+    }
+};
+
+// Line sweep
+class Solution2 {
+public:
+    int minZeroArray(vector<int>& nums, vector<vector<int>>& queries) 
+    {
+        int n = nums.size();
+        int sum = 0;
+        int k = 0;
+
+        vector<int> diff_arr(n + 1);
+        for (int i = 0; i < n; i++)
+        {
+            while (sum + diff_arr[i] < nums[i]) // more operations needed to current index
+            {
+                k++;
+                if (k > queries.size()) return -1;  // all queries are processed
+
+                int L = queries[k - 1][0];
+                int R = queries[k - 1][1];
+                int val = queries[k - 1][2];
+
+                if (R >= i)
+                {
+                    diff_arr[max(L, i)] += val; // updates start of range
+                    diff_arr[R + 1] -= val;     // updates end of range
+                }
+            }
+            sum += diff_arr[i];
+        }    
+        return k;
     }
 };
 
