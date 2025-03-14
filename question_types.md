@@ -42,6 +42,7 @@
 
 ## Binary Search
 ### 2025 Mar
+- 2226 Maximum Candies Allocated to K Children
 - 3356 Zero Array Transformation II
 
 ## Line sweep
