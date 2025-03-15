@@ -43,8 +43,10 @@
 ## Binary Search
 ### 2025 Mar
 - 2226 Maximum Candies Allocated to K Children
+- 2560 House Robber IV
 - 3356 Zero Array Transformation II
 
 ## Line sweep
 ### 2025 Mar
 - 3356 Zero Array Transformation II
+
