@@ -42,6 +42,7 @@
 
 ## Binary Search
 ### 2025 Mar
+- 2594 Minimum Time to Repair Cars
 - 2226 Maximum Candies Allocated to K Children
 - 2560 House Robber IV
 - 3356 Zero Array Transformation II
