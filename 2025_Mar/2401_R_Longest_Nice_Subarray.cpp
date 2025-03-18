@@ -10,7 +10,7 @@ public:
 
         for (int R = 0; R < nums.size(); R++)
         {
-            while (bit & nums[R] != 0)  // while the bit & some number is not 0,
+            while ((bit & nums[R]) != 0)  // while the bit & some number is not 0,
             {
                 bit = bit ^ nums[L];    // removes the leftmost bit
                 L++;                    // shrinks the window size
