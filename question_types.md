@@ -18,6 +18,7 @@
 - 407 Trapping Rain Water II
 ### 2025 Mar
 - 3108 Minimum Cost Walk in Weighted Graph
+- 2115 Find All Possible Recipes from Given Supplies
 
 ## DFS
 ### 2025 Jan
@@ -56,3 +57,7 @@
 ## Sliding window
 ### 2025 Mar
 - 2401 Longest Nice Subarray
+
+## Topological Sort / Khan's algorithm
+### 2025 Mar
+- 2115 Find All Possible Recipes from Given Supplies
