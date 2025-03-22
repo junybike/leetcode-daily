@@ -19,13 +19,16 @@
 ### 2025 Mar
 - 3108 Minimum Cost Walk in Weighted Graph
 - 2115 Find All Possible Recipes from Given Supplies
+- 2685 Count the Number of Complete Components
 
 ## DFS
 ### 2025 Jan
 - 802 Find Eventual Safe States
 - 684 Redundant Connection
 - 2658 Maximum Number of Fish in a Grid
-- 827 Making A Large Island  
+- 827 Making A Large Island
+### 2025 Mar
+- 2685 Count the Number of Complete Components
 
 ## Dijkstra
 ### 2025 Jan
