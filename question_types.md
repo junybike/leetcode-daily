@@ -33,6 +33,8 @@
 ## Dijkstra
 ### 2025 Jan
 - 1368 Minimum Cost to Make at Least One Valid Path in a Grid (DP, Dij, BFS)  
+### 2025 Mar
+- 1976 Number of Ways to Arrive at Destination
 
 ## Backtracking
 ### 2025 Feb
