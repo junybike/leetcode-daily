@@ -5,3 +5,4 @@ Any code that contains 'R' after the question number indicates that this answer 
 
 ## Need to work on:  
 - 2467 Most Profitable Path in a Tree
+- 3394 Check if Grid can be cut into sections
