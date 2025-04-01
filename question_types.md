@@ -8,6 +8,8 @@
 - 494 Target Sum
 ### 2025 Feb
 - 1092 Shortest Common Supersequence
+### 2025 Apr
+- 2140 Solving Questions With Brainpower
 
 ## BFS
 ### 2024 Dec
