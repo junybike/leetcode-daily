@@ -11,6 +11,7 @@
 ### 2025 Apr
 - 2140 Solving Questions With Brainpower
 - 368 Largest Divisible Subset
+- 416 Partition Equal Subset Sum
 
 ## BFS
 ### 2024 Dec
