@@ -34,3 +34,6 @@ Lists of useful tools to solve problems
   
 - Kadane's:  
   max subarray sum in an array
+
+- Knapsack:  
+  most valuable subset of items that can fit 
