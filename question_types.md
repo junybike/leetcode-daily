@@ -70,3 +70,7 @@
 ## Topological Sort / Khan's algorithm
 ### 2025 Mar
 - 2115 Find All Possible Recipes from Given Supplies
+
+## Two pointers
+### 2025 Apr
+- 2537 Count the Number of Good Subarrays
