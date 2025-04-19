@@ -58,6 +58,7 @@
 - 2226 Maximum Candies Allocated to K Children
 - 2560 House Robber IV
 - 3356 Zero Array Transformation II
+- 2563 Count the Number of Fair Pairs
 
 ## Line sweep
 ### 2025 Mar
