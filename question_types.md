@@ -67,6 +67,8 @@
 ## Sliding window
 ### 2025 Mar
 - 2401 Longest Nice Subarray
+### 2025 Apr
+- 2302 Count Subarrays With Score Less Than K
 
 ## Topological Sort / Khan's algorithm
 ### 2025 Mar
