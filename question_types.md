@@ -69,6 +69,7 @@
 - 2401 Longest Nice Subarray
 ### 2025 Apr
 - 2302 Count Subarrays With Score Less Than K
+- 2962 Count Subarrays Where Max Element Appears at Least K Times
 
 ## Topological Sort / Khan's algorithm
 ### 2025 Mar
