@@ -59,6 +59,7 @@
 - 2560 House Robber IV
 - 3356 Zero Array Transformation II
 - 2563 Count the Number of Fair Pairs
+- 2071 Maximum Number of Tasks You Can Assign
 
 ## Line sweep
 ### 2025 Mar
