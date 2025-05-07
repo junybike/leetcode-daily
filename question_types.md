@@ -24,6 +24,8 @@
 - 3108 Minimum Cost Walk in Weighted Graph
 - 2115 Find All Possible Recipes from Given Supplies
 - 2685 Count the Number of Complete Components
+### 2025 May
+- 3341 Find Minimum Time to Reach Last Room I
 
 ## DFS
 ### 2025 Jan
