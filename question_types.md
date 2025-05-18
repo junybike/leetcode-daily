@@ -12,6 +12,9 @@
 - 2140 Solving Questions With Brainpower
 - 368 Largest Divisible Subset
 - 416 Partition Equal Subset Sum
+### 2025 May
+- 2901 Longest Unequal Adjacent Groups Subsequence II
+- 1931 Painting a Grid With Three Different Colors 
 
 ## BFS
 ### 2024 Dec
