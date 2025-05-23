@@ -14,7 +14,8 @@
 - 416 Partition Equal Subset Sum
 ### 2025 May
 - 2901 Longest Unequal Adjacent Groups Subsequence II
-- 1931 Painting a Grid With Three Different Colors 
+- 1931 Painting a Grid With Three Different Colors
+- 3068 Find the Maximum Sum of Node Values
 
 ## BFS
 ### 2024 Dec
