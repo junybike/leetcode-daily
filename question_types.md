@@ -39,6 +39,9 @@
 - 827 Making A Large Island
 ### 2025 Mar
 - 2685 Count the Number of Complete Components
+### 2025 May
+- 1857 Largest Color Value in a Directed Graph
+- 3372 Maximize the Number of Target Nodes After Connecting Trees I
 
 ## Dijkstra
 ### 2025 Jan
