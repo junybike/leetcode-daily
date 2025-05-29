@@ -42,6 +42,7 @@
 ### 2025 May
 - 1857 Largest Color Value in a Directed Graph
 - 3372 Maximize the Number of Target Nodes After Connecting Trees I
+- 3373 Maximize the Number of Target Nodes After Connecting Trees II
 
 ## Dijkstra
 ### 2025 Jan
