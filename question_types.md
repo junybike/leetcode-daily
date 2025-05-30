@@ -30,6 +30,7 @@
 - 2685 Count the Number of Complete Components
 ### 2025 May
 - 3341 Find Minimum Time to Reach Last Room I
+- 2359 Find Closest Node to Given Two Nodes
 
 ## DFS
 ### 2025 Jan
