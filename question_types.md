@@ -90,3 +90,7 @@
 ## Two pointers
 ### 2025 Apr
 - 2537 Count the Number of Good Subarrays
+
+## Union Find
+### 2025 June
+- 1061 Lexicographically Smallest Equivalent String
