@@ -6,12 +6,12 @@ public:
     {
         int i = 1;
         int base = 1;
-        int cnt = 0;
+        long long cnt = 0;
 
         while (base <= num)
         {
             // to determine the number of operations, need to know the binary number of length  
-            cnt += 1 * (i + 1) / 2 * (min(base * 2 - 1, num) - base + 1);
+            cnt += (long long)1 * (i + 1) / 2 * (min(base * 2 - 1, num) - base + 1);
             i++;
             base *= 2;
         }
