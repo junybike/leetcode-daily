@@ -32,4 +32,5 @@ public:
 };
 /*
 solution reference
+https://leetcode.com/problems/count-special-triplets/editorial
 */
